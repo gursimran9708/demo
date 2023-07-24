@@ -17,8 +17,7 @@ jobs:
   run-lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Fix
-        run: standard --fix
+   
     
       - name: Checkout code
         
